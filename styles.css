@@ -19,3 +19,41 @@ body {
   background-color: #1f2937;
   padding-bottom: 96px;
 }
+
+.main-heading {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  font-size: 18px;
+}
+
+.links a:link {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+
+.links a:visited {
+  color: #f9faf8;
+}
+
+.links a:hover {
+  color: aqua;
+}
+
+.links a:active {
+  text-decoration: underline;
+}
