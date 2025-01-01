@@ -13,3 +13,9 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+#hero-section {
+  color: #f9faf8;
+  background-color: #1f2937;
+  padding-bottom: 96px;
+}
