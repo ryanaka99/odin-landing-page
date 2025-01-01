@@ -20,6 +20,7 @@ body {
   padding-bottom: 96px;
 }
 
+/* Header */
 .main-heading {
   height: 60px;
   display: flex;
@@ -56,4 +57,43 @@ body {
 
 .links a:active {
   text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  gap: 36px;
+}
+
+.hero-text {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0.18rem;
+  line-height: 2rem;
+  margin-bottom: 16px;
+}
+
+.hero-description {
+  font-size: 16px;
+  line-height: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 8px 32px;
+  background-color: #3882f6;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.placeholder {
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  background-color: #595a5a;
 }
