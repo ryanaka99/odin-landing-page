@@ -97,3 +97,46 @@ body {
   line-height: 200px;
   background-color: #595a5a;
 }
+
+/* Featured */
+#featured-section {
+  padding: 48px 0 96px;
+  border: 1px solid black;
+}
+
+.sub-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 32px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.cards > * {
+  flex: 0 1 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue-box {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.featured-description {
+  font-size: 16px;
+  text-align: center;
+}
