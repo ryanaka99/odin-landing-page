@@ -140,3 +140,27 @@ body {
   font-size: 16px;
   text-align: center;
 }
+
+/* Quotes */
+#quotes-section {
+  background-color: #e5e7eb;
+  padding: 96px 0;
+}
+
+.box-quotes {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.quotes {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.author {
+  align-self: flex-end;
+}
