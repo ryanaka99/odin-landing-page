@@ -164,3 +164,26 @@ body {
 .author {
   align-self: flex-end;
 }
+
+/* CTA */
+#cta-section {
+  padding: 96px 0;
+  color: white;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  padding: 48px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta-text h4 {
+  margin-bottom: 8px;
+}
+
+.cta-white {
+  border: 2px solid white;
+}
